@@ -85,7 +85,6 @@ public class Main {
                 }
             }
             //创建菜单表格
-
             table = new JTable(rowData, columnNames);
             jscrollpane.setBounds(0, 31, 700, 370);
             jscrollpane.setViewportView(table);
