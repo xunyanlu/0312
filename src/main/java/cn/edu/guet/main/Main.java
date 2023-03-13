@@ -90,9 +90,7 @@ public class Main {
             jscrollpane.setBounds(0, 31, 700, 370);
             jscrollpane.setViewportView(table);
             table.setRowHeight(35);
-            /**
-             * 字居中显示设置
-             */
+
             DefaultTableCellRenderer r = new DefaultTableCellRenderer();
             r.setHorizontalAlignment(JLabel.CENTER);
             table.setDefaultRenderer(Object.class, r);
